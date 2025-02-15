@@ -31,65 +31,61 @@ body {
 header {
     width: 1440px;
     height: 72px;
-    background-color: #f4f4fd; 
+    background-color: #f4f4fd;
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
     padding: 0 156px;
-}
-.logo-link {
-    text-decoration: none;
-    color: #4d5ae5; 
+    border-bottom: 1px solid #e7e9fc;
 }
 
-.logo-link {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    flex-direction: row;
-    width: 115px;
-    height: 24px;
-    position: absolute;
-    left: 156px; 
-    top: 24px;  
-    bottom: 24px;
-    
 }
 
+.logo-link {
+    text-decoration: none;
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 76px; /* Відступ від логотипа */
+}
 
 .logo-text {
-    color: #2e2f42; 
+    color: #2e2f42;
 }
 
 .nav-links {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #2e2f42;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    text-decoration: none;
-    list-style: none;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 40px;
-    width: 261px;
-    height: 24px;
-    padding-left: 76px;
-    position: absolute;
-    left: 347px; 
-    top: 24px; 
-    bottom: 24px;
-    right: 832px;
-
+    padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -98,26 +94,19 @@ header {
 }
 
 .contact-info {
-    font-style: normal;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    flex-direction: row;
     gap: 40px;
-  
-    
-
-
 }
 
 .contact-info ul {
     list-style: none;
-    gap: 40px;
     display: flex;
-    
+    gap: 40px;
 }
 
-.contact-info .contact-link {
+.contact-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -125,15 +114,103 @@ header {
     text-decoration: none;
 }
 
-.contact-info .contact-link:hover,
-.contact-info .contact-link:focus {
+.contact-link:hover,
+.contact-link:focus {
     color: #404bbf;
 }
 
-
-
 .conteiner_first {
-    background-color: #2e2f42;
+    header {
+        width: 1440px;
+        height: 72px;
+        background-color: #f4f4fd;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 156px;
+        border-bottom: 1px solid #e7e9fc;
+    }
+    
+    .container {
+        width: 1158px;
+        margin: 0 auto;
+        padding: 0 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .navigation {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    .logo-link {
+        text-decoration: none;
+        color: #4d5ae5;
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-right: 76px; /* Відступ від логотипа */
+    }
+    
+    .logo-text {
+        color: #2e2f42;
+    }
+    
+    .nav-links {
+        display: flex;
+        gap: 40px;
+        list-style: none;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    
+    .nav-link {
+        text-decoration: none;
+        color: #2e2f42;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 24px 0;
+    }
+    
+    .nav-link:hover,
+    .nav-link:focus {
+        color: #404bbf;
+    }
+    
+    .contact-info {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 40px;
+    }
+    
+    .contact-info ul {
+        list-style: none;
+        display: flex;
+        gap: 40px;
+    }
+    
+    .contact-link {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+        text-decoration: none;
+    }
+    
+    .contact-link:hover,
+    .contact-link:focus {
+        color: #404bbf;
+    }
+      background-color: #2e2f42;
     text-align: center;
     width: 1440px;
     height: 600px;
