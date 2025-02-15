@@ -28,7 +28,7 @@ body {
     font-weight: 400;
     color: #434455;
 }
-header {
+.site_header{
     width: 1440px;
     height: 72px;
     background-color: #f4f4fd;
@@ -39,7 +39,7 @@ header {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.container {
+.header_container {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -52,6 +52,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    width: 1158px
 }
 
 .logo-link {
@@ -100,22 +101,28 @@ header {
     gap: 40px;
 }
 
-.contact-info ul {
+.contact-list {
     list-style: none;
     display: flex;
     gap: 40px;
 }
 
-.contact-link {
+.contact-item {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.email-link,
+.phone-link {
     color: #434455;
     text-decoration: none;
 }
 
-.contact-link:hover,
-.contact-link:focus {
+.email-link:hover,
+.email-link:focus,
+.phone-link:hover,
+.phone-link:focus {
     color: #404bbf;
 }
 
