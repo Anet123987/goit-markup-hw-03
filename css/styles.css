@@ -1,0 +1,470 @@
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    text-decoration: none; 
+}
+  
+  ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+ 
+  li {
+    margin: 0;
+    padding: 0;
+} 
+
+  html{
+    box-sizing: border-box;
+   
+  }
+body {
+    background-color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #434455;
+}
+header {
+    width: 1440px;
+    height: 72px;
+    background-color: #f4f4fd; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0 156px;
+}
+.logo-link {
+    text-decoration: none;
+    color: #4d5ae5; 
+}
+
+.logo-link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 115px;
+    height: 24px;
+    position: absolute;
+    left: 156px; 
+    top: 24px;  
+    bottom: 24px;
+    
+}
+
+
+.logo-text {
+    color: #2e2f42; 
+}
+
+.nav-links {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
+    width: 261px;
+    height: 24px;
+    padding-left: 76px;
+    position: absolute;
+    left: 347px; 
+    top: 24px; 
+    bottom: 24px;
+    right: 832px;
+
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf;
+}
+
+.contact-info {
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
+  
+    
+
+
+}
+
+.contact-info ul {
+    list-style: none;
+    gap: 40px;
+    display: flex;
+    
+}
+
+.contact-info .contact-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+}
+
+.contact-info .contact-link:hover,
+.contact-info .contact-link:focus {
+    color: #404bbf;
+}
+
+
+
+.conteiner_first {
+    background-color: #2e2f42;
+    text-align: center;
+    width: 1440px;
+    height: 600px;
+    position: relative;
+    display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+   width: 496px;
+   height: 120px;
+   display: flex;
+  align-items: center; /* Вертикальное выравнивание */
+  justify-content: center ;
+  top: 188px; /* Отступ сверху */
+  left: 472px; /* Отступ слева */
+  right: 472px; /* Отступ справа */
+  bottom: 292px; /* Отступ снизу */
+}
+.buttons {
+    position: absolute; 
+    top: 404px; /* Отступ сверху */
+    left: 636px; /* Отступ слева */
+    right: 635px; /* Отступ справа */
+    bottom: 188px; /* Отступ снизу */
+    display: flex;
+    justify-content: center; /* Центрируем кнопку внутри контейнера */
+    align-items: center;
+    
+  
+  }
+  
+  .button {
+    background-color:  #4D5AE5;;
+    font-family:  "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+   gap: 10px;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    padding: 16px 32px;
+    margin-top: 48px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover,
+  .button:focus {
+    background-color: #404BBF; /* Цвет при наведении */
+  }
+
+  .sr-only {
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: none;
+    overflow: hidden;
+}
+
+.cards {
+    display: flex;
+    width: 1128px; 
+    flex-wrap: wrap; /* Чтобы элементы переходили на следующую строку, если не помещаются */
+    justify-content: space-between; /* Распределение элементов по строке с отступами */
+    width: 1128px;
+    margin: 0 auto; /* Центрируем контейнер */
+}
+.second_section {
+    background-color: #f9f9f9;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.cards li {
+    flex: 0 1 calc(25% - 40px); /* Устанавливаем ширину элементов (25% минус отступы) */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.cards ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px; /* Отступы между элементами */
+    width: 100%;
+   
+    
+}
+.list_item_heading {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 20px;
+   
+}
+
+.list_item_paragraph {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+   
+}
+
+.second_section_heading {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+
+
+
+
+.third_section {
+    background-color: #F4F4FD;
+    width: 1440px;
+    height: 732px;
+    text-align: center;
+    margin: 0 auto; 
+}
+
+.third_section_heading {
+    font-size: 34px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    font-weight: 700;
+    line-height: 111%;
+    width: 160px;   /* Ширина заголовка */
+    height: 40px;   /* Высота заголовка */
+    position: absolute;
+    left: 639px; 
+    right: 639px;    /* Отступ слева */
+    top: 1136px;      /* Отступ сверху */
+    margin-bottom: 72px;  /* Отступ до карточек */
+}
+
+
+
+.team-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.team-item {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 0 0 4px 4px;
+    width: 264px;
+    height: 380px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 236px;
+
+}
+   
+.team-member-img {
+    width: 264px;
+    height: 260px;
+    object-fit: cover;
+    background-color: #fff;
+    display: block;
+}
+
+.team-item-heading {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-top: 32px;
+}
+.team-item-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    width: 232px;
+    height: 56px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+
+.team-item-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+.fourth_section {
+    background-color: #F4F4FD;
+   
+}
+
+.fourth_section_heading {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+    margin-bottom: 8px;
+   
+
+
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    
+}
+  
+
+.portfolio-list li {
+   
+    
+    background-color: #FFFFFF;
+    width: 360px;
+    height: 420px;
+    display: flex;
+align-items: flex-start;
+justify-content: center;
+flex-direction: column;
+gap: 24px;
+width: calc((100% - 48px) / 3);
+    
+}
+.portfolio_heading, .portfolio_paragraph {
+    width: 100%;  /* Текст под картинкой будет растягиваться на всю ширину карточки */
+    text-align: left;  
+}
+.portfolio_heading {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio_paragraph {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.footer {
+    background-color: #2e2f42;
+    padding: 156px 0;
+   
+}
+
+.footer_logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+
+
+.logo_studio {
+   
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+}
+
+
+
+.footer_paragraph {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    max-width: 264px;
+}
