@@ -126,160 +126,68 @@ body {
     color: #404bbf;
 }
 
-.conteiner_first {
-    header {
-        width: 1440px;
-        height: 72px;
-        background-color: #f4f4fd;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 156px;
-        border-bottom: 1px solid #e7e9fc;
-    }
-    
-    .container {
-        width: 1158px;
-        margin: 0 auto;
-        padding: 0 15px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .navigation {
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-    }
-    
-    .logo-link {
-        text-decoration: none;
-        color: #4d5ae5;
-        font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        text-transform: uppercase;
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        margin-right: 76px; /* Відступ від логотипа */
-    }
-    
-    .logo-text {
-        color: #2e2f42;
-    }
-    
-    .nav-links {
-        display: flex;
-        gap: 40px;
-        list-style: none;
-        margin-left: 0;
-        padding-left: 0;
-    }
-    
-    .nav-link {
-        text-decoration: none;
-        color: #2e2f42;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        padding: 24px 0;
-    }
-    
-    .nav-link:hover,
-    .nav-link:focus {
-        color: #404bbf;
-    }
-    
-    .contact-info {
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        gap: 40px;
-    }
-    
-    .contact-info ul {
-        list-style: none;
-        display: flex;
-        gap: 40px;
-    }
-    
-    .contact-link {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-        text-decoration: none;
-    }
-    
-    .contact-link:hover,
-    .contact-link:focus {
-        color: #404bbf;
-    }
-      background-color: #2e2f42;
+.container_first {
+    background-color: #2e2f42;
     text-align: center;
     width: 1440px;
     height: 600px;
     position: relative;
     display: flex;
-  justify-content: center; 
-  align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.title {
+.first_section {
+    padding: 188px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #fff;
-   width: 496px;
-   height: 120px;
-   display: flex;
-  align-items: center; /* Вертикальное выравнивание */
-  justify-content: center ;
-  top: 188px; /* Отступ сверху */
-  left: 472px; /* Отступ слева */
-  right: 472px; /* Отступ справа */
-  bottom: 292px; /* Отступ снизу */
+    max-width: 496px;
+    text-align: center;
+    display: block; 
 }
+
 .buttons {
-    position: absolute; 
-    top: 404px; /* Отступ сверху */
-    left: 636px; /* Отступ слева */
-    right: 635px; /* Отступ справа */
-    bottom: 188px; /* Отступ снизу */
+    margin-top: 48px;  
     display: flex;
-    justify-content: center; /* Центрируем кнопку внутри контейнера */
+    justify-content: center;
     align-items: center;
-    
-  
-  }
-  
-  .button {
-    background-color:  #4D5AE5;;
-    font-family:  "Roboto", sans-serif;
+}
+
+.action_button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4D5AE5;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 15px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    border: none;
-    cursor: pointer;
-   gap: 10px;
-    border-radius: 4px;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
     padding: 16px 32px;
-    margin-top: 48px;
     transition: background-color 0.3s ease;
-  }
-  
-  .button:hover,
-  .button:focus {
-    background-color: #404BBF; /* Цвет при наведении */
-  }
+}
+
+.action_button:hover,
+.action_button:focus {
+    background-color: #404BBF;
+}
+
 
   .sr-only {
     position: absolute;
