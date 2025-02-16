@@ -135,13 +135,7 @@ body {
 
 
 .container1 {
-    width: 100%; 
-    max-width: 1440px; 
-    background-color: #2e2f42;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 20px; 
+    
 }
 
 
@@ -153,6 +147,13 @@ body {
     align-items: center;
     text-align: center; 
     width: 100%;
+    width: 100%; 
+    max-width: 1440px; 
+    background-color: #2e2f42;
+    display: flex;
+    
+    
+    
 }
 
 
@@ -202,7 +203,7 @@ body {
 
 
 
-.sr-only {
+.visually-hidden {
     position: absolute;
     width: 0;
     height: 0;
@@ -217,15 +218,15 @@ body {
     padding-top: 120px;
     padding-bottom: 120px;
     width: 1440px;
-}
-
-.cards {
     display: flex;
     width: 1128px;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 auto;
+
 }
+
+
 
 .cards_list {
     list-style: none;
@@ -342,8 +343,11 @@ body {
     padding-top: 120px; 
     width: 1128px;
     height: 1000px;
-    background-color: #fff;
+    width: 100%;
+    padding: 0 16px; 
+    
 }
+
 
 .fourth_section_heading {
     font-family: "Roboto", sans-serif;
@@ -357,13 +361,8 @@ body {
     
 }
 
-.container4 {
-    width: 100%;
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 16px; 
-    width: 1128px;
-    height: 1000px;
+.container {
+    
 }
 
 .portfolio-list {
@@ -406,7 +405,7 @@ height: 120px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 8px; /* Отступ снизу */
+    margin-bottom: 8px; 
 }
 
 .portfolio_paragraph {
