@@ -40,7 +40,7 @@ body {
 }
 
 .header_container {
-    width: 1440px;
+    width: 1158px;
     height: 72px;
     margin: 0 auto;
     padding: 0 15px;
@@ -173,6 +173,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 
