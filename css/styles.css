@@ -39,7 +39,7 @@ body {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.header_container {
+._container {
     width: 1158px;
     height: 72px;
     margin: 0 auto;
@@ -162,7 +162,7 @@ body {
     margin-bottom: 48px;
 }
 
-.buttons {
+.button {
     display: flex;
     justify-content: center;
     align-items: center;
