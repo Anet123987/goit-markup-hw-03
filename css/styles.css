@@ -99,7 +99,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
+    gap: 40px;
 }
 
 .contact-list {
@@ -107,7 +107,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 40px;
+   
 }
 
 .contact-item {
@@ -357,6 +357,7 @@ body {
     row-gap: 48px;
     padding: 0;
     margin: 0;
+   
 }
 
 .portfolio-item {
@@ -370,7 +371,13 @@ body {
     gap: 24px;
     
 }
+.portfolio-item:nth-child(3n) {
+    margin-right: 0; 
+}
 
+.portfolio-item:nth-child(n+4) {
+    margin-bottom: 0; 
+}
 .portfolio-info {
     padding: 32px 16px;
     border: 1px solid #e7e9fc; 
