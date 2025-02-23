@@ -28,7 +28,7 @@ body {
     font-weight: 400;
     color: #434455;
 }
-.site_header{
+.header_container{
     width: 1440px;
     height: 72px;
     background-color: #f4f4fd;
@@ -199,7 +199,7 @@ body {
     margin: 0;
     padding: 0;
     border: none;
-    overflow: hidden;
+    visibility: hidden;
 }
 
 .second_section {
@@ -275,6 +275,7 @@ body {
 }
 .team {
     padding: 32px 0  
+    
 }
 .team-list {
     list-style: none;
@@ -283,6 +284,7 @@ body {
     gap: 24px;
     padding: 0;
     margin: 0;
+    width: calc((100% - 72px) / 4);
 }
 
 .team-item {
@@ -305,6 +307,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 32px 0 
+    
 }
 
 .team-member-img {
