@@ -34,13 +34,7 @@ body {
     border-bottom: 1px solid #e7e9fc;
     height: 72px;
 }
-.header {
- 
-    display: flex;
-    
-    
-    
-}
+
 
 .header_header {
     width: 1158px;
@@ -50,6 +44,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     
     
 }
