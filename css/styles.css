@@ -28,7 +28,7 @@ body {
     font-weight: 400;
     color: #434455;
 }
-.header_container{
+.site_header {
     width: 1440px;
     height: 72px;
     background-color: #f4f4fd;
@@ -136,9 +136,7 @@ body {
 }
 
 
-.container {
-    
-}
+
 
 
 .first_section {
@@ -291,12 +289,12 @@ body {
     align-items: center;
     justify-content: flex-start;
     border-radius: 0 0 4px 4px;
-    width: 264px;
+    
     height: 380px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding-top: 32px; 
     flex-basis: calc((100% - 3 * 24px) / 4) ;
-    width: 100%;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -358,9 +356,8 @@ body {
     color: #2e2f42;
     margin-bottom: 72px;
     margin-top: 0;
-    margin-bottom: 8px
+    
 }
-
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
