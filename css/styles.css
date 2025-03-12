@@ -38,7 +38,7 @@ body {
 }
 
 
-.header_header {
+.container {
     width: 1158px;
     height: 72px;
     margin: 0 auto;
@@ -336,11 +336,8 @@ body {
    
 }  
 
-.container {
-   
-    margin: 0 auto; 
-    padding: 0 16px; 
-}
+
+
 
 .fourth_section_heading {
     font-family: "Roboto", sans-serif;
