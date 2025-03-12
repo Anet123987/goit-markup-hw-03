@@ -38,7 +38,7 @@ body {
 }
 
 
-.header_header {
+.container {
     width: 1158px;
     height: 72px;
     margin: 0 auto;
@@ -291,7 +291,6 @@ body {
     border-radius: 0 0 4px 4px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     justify-content: center;
-    border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
     height: 428px;
    
