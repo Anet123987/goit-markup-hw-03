@@ -2,7 +2,7 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0;
     padding: 0;
   }
-  a {
+a {
     text-decoration: none; 
 }
   
@@ -38,7 +38,7 @@ body {
 }
 
 
-.container {
+.header_header {
     width: 1158px;
     height: 72px;
     margin: 0 auto;
@@ -46,6 +46,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-sizing: border-box;
 
     
     
@@ -253,9 +254,11 @@ body {
 .third_section {
     background-color: #F4F4FD;
     width: 1440px;
+    height: 780px;
     padding: 120px 0; 
     text-align: center;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 .third_section_heading {
@@ -280,6 +283,7 @@ body {
     padding: 0;
     margin: 0;
     flex-wrap: wrap;
+  
 }
 
 .team-item {
@@ -336,8 +340,11 @@ body {
    
 }  
 
-
-
+.container {
+  
+    margin: 0 auto; 
+    padding: 0 15px; 
+}
 
 .fourth_section_heading {
     font-family: "Roboto", sans-serif;
