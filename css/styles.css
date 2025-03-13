@@ -259,11 +259,10 @@ body {
 
 .third_section {
     background-color: #F4F4FD;
-    
     padding: 120px 0; 
     text-align: center;
     margin: 0 auto;
-    box-sizing: border-box;
+    
 }
 
 .third_section_heading {
