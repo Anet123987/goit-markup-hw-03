@@ -145,12 +145,10 @@ body {
 .first_section {
     padding: 188px 0;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
     text-align: center;
     width: 100%;
-    max-width: 1440px;
+    
     background-color: #2e2f42;
 }
 
@@ -231,9 +229,7 @@ body {
    
     display: flex;
     flex-direction: column;
-    
     align-items: flex-start;
-    margin-bottom: 20px;
     width: calc((100% - 72px) / 4)
     
 }
@@ -267,7 +263,7 @@ body {
 .third_section_heading {
     font-size: 34px;
     line-height: 1.11;
-    text-align: center;
+    
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
@@ -292,13 +288,13 @@ body {
 .team-item {
     background-color: #FFFFFF;
     flex-basis: calc((100% - 72px) / 4); 
-    max-width: 264px; 
+   
     flex-direction: column;
     align-items: center;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     justify-content: center;
-    height: 428px;
+    
    
 }
 
@@ -367,7 +363,7 @@ body {
     column-gap: 24px;
     row-gap: 48px;
     padding: 0;
-    margin-top: 100px;
+    
    
 }
 
@@ -376,9 +372,6 @@ body {
     width: calc((100% - 48px) / 3);
     height: 400px;
     align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    gap: 24px;
     
 }
 
@@ -428,8 +421,7 @@ body {
     background-color: #2e2f42; 
     padding: 100px 0; 
     text-align: left;
-    width: 1440px;
-    height: 312px;
+    
     
 }
 
